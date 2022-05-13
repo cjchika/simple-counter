@@ -17,3 +17,18 @@ function save(){
 }
 
 saveBtn.addEventListener("click", save)
+
+let username = 'Odogwu'
+
+let message = 'You have new notification'
+
+let messageToUser = `${message}, ${username}!`
+console.log(messageToUser);
+
+let name = "Odogwu";
+
+let greeting = "Hi, I am "
+
+let myGreeting = `${greeting}${name}`;
+
+console.log(myGreeting);
